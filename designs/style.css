@@ -1,0 +1,139 @@
+body{
+  font-family: Lucida sans;
+}
+.hone{
+  font-size: 32px;
+}
+.frm-ct{
+  border-style: solid;
+  width: 350px;
+  padding: 5px;
+  border-width: 0px;
+  text-align: left;
+}
+.frm-ct input{
+  width: 98%;
+  height: 40px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+}
+.frm-ct input:-webkit-autofill{
+    -webkit-text-fill-color: #ffffff !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.frm-ct button{
+  width: 100px;
+  height: 40px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  cursor: pointer;
+}
+.frm-ct label{
+  color: #202020;
+}
+@media screen and (max-width: 365px){
+  .frm-ct{
+    width :100%;
+  }
+}
+.allim{
+  width: 350px;
+  height: 300px;
+  marign:4px;
+  display:inline-block;
+  border-style:solid;
+  padding: 5px;
+  border-width: 0px;
+  marign: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.master{
+  width: 100px;
+  height: 40px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  cursor: pointer;
+}
+
+.almx{
+  display: block;
+  width: 100px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  cursor: pointer;
+}
+.bbc{
+  display: inline-block;
+  margin: 3px;
+  width: 150px;
+}
+input[type="file"]::-ms-browse {
+    width: 100px;
+  height: 40px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    width: 100px;
+  height: 40px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  cursor: pointer;
+}
+
+.paster{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 4px;
+  border: none;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  cursor: pointer;
+}
